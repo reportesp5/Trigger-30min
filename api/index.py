@@ -13,7 +13,7 @@ HEADERS = {
 
 # Lista de workflows a serem acionados
 WORKFLOWS = [
-    {"repo": "report_inbound", "workflow": "main_inbound.yaml"},
+    {"repo": "report_stageout", "workflow": "piso_exp.yaml"},
 ]
 
 # Rota principal para verificar se o app está no ar

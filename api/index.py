@@ -14,6 +14,7 @@ HEADERS = {
 # Lista de workflows a serem acionados
 WORKFLOWS = [
     {"repo": "report_stageout", "workflow": "piso_exp.yaml"},
+    {"repo": "backlog", "workflow": "backlog.yml"},
 ]
 
 # Rota principal para verificar se o app está no ar
